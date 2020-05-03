@@ -1,0 +1,72 @@
+@media screen and (max-width:1200px){
+    .main-nav .menu-btn{
+        display: block !important;
+        color: #F0F5F7;
+    }
+    .main-nav .menu-btn:hover{
+        opacity: 0.9
+    }
+    .main-nav ul.right-menu{
+        padding:0 40px;
+    }
+    .main-nav .logo{
+        margin-left: 190px;
+    }
+    .main-nav ul.main-menu{
+       display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background: #000;
+        width: 100%;
+        height: 650px;
+        padding: 40px 0;
+        border: 1px solid #ccc;
+        transform: translateY(-650px);
+        transition: transform 0.5s ease-in-out;
+    }
+    .main-nav ul.main-menu li{
+        padding: 15px;
+        border-bottom: 1px solid #ccc;
+        font-size: 14px;
+    }
+    .main-nav ul.main-menu li:last-child{
+        border-bottom: 0;
+    }
+    .main-nav ul.main-menu.show{
+        transform: translateY(50px);
+    }
+    .grid-item{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .grid-item1 .content{
+        width: 100%;
+        height: 100%;
+        background: url('tile__cauwwcyyn9hy_medium.jpg') no-repeat center center/cover !important;
+        padding-bottom: 480px
+    }
+    .iPhone-SE{
+        width: 100%;
+        height: 590px;
+        background: url('hero__se_small%20(1).jpg') no-repeat center center/cover !important;
+        margin-bottom: 10px;
+    }
+    .iPhone-11-pro{
+        width: 100%;
+        height: 630px;
+        background: url('hero__dvsxv8smkkgi_small.jpg') no-repeat center center/cover !important;
+        margin-bottom: 10px;
+    }
+    .link{
+        grid-template-columns: repeat(3,1fr) !important;
+        margin: auto;
+    }
+    .iPhone-11{
+        width: 80%;
+        height: 450px;
+        background: url('hero__dvsxv8smkkgi_small%20(1).jpg') no-repeat center center/cover !important;
+        margin-bottom: 10px;
+        }
+}
